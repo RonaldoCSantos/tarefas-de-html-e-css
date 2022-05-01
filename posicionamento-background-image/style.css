@@ -8,6 +8,7 @@ div.i1{
     background-size: 100%;
     margin: 10px;
     
+    
 }
 
 div.i2{
@@ -19,5 +20,19 @@ div.i2{
     background-image: url(imagens/imagem-vertical-esquerda.jpg);
     background-position:   bottom center ;
     background-repeat: no-repeat;
-
+}
+div.i3{
+    margin: 10px;
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    background-image: url(imagens/imagem-quadrado.jpg);
+    background-position:   bottom center ;
+    background-repeat: no-repeat;
+}
+div#juntos{
+    display: inline-block;
+   
+   
 }
