@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="
+    src/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <a href="#"class="logo"><img src="assets/logo.png"></a>
+        <ul class="navigation">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">TV Shows</a></li>
+           <li><a href="#">Movies</a></li>
+           <li><a href="#">Latest</a></li>
+           <li><a href="#">My list</a></li> 
+
+           <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search"></i><!-- fas fa-search é o icone de lupa ao lado da busca, importador via fontawesome-->
+           </div>
+         <!--tem "#" dentro de href, porque não esta lincado a uma pagina é apenas uma landing page para estudo-->
+          
+        </ul>
+    </header>
+    <div class="banner">
+        <img src="assets/bg.jpg" class="bg">
+        <div class="content">
+            <img src="assets/name.png" class="movieTitle">
+            <h4>
+                <span class="border">2020</span>
+                <span class="border"><i>12+</i></span>
+                <span class="border">1h 55min</span>
+                <span>Action</span>
+            </h4>
+                <p class="sinopse">
+                    Em Mulan, Hua Mulan (Liu Yifei) é a espirituosa e determinada filha mais velha de um honrado guerreiro. Quando o Imperador da China emite um decreto que um homem de cada família deve servir no exército imperial, Mulan decide tomar o lugar de seu pai, que está doente. Assumindo a identidade de Hua Jun, ela se disfarça de homem para combater os invasores que estão atacando sua nação, provando-se uma grande guerreira.
+                </p>
+                <div class="buttons">
+                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+                </div>  
+        </div> 
+    </div>
+
+    <a class="play" onclick="toggleVideo()"><img src="assets/play.png">Wacth Trailer</a> <!--onclick é uma função do javascript--> 
+
+    <div class="trailer"> 
+
+       <video src="assets/mulan-big-game-spot_h720p.mov" controls="true"></video>
+
+       <img src="assets/close.png" class="close" onclick="toggleVideo()">
+
+    </div>
+
+</body>
+<script src="src/script.js"></script>
+</html>
