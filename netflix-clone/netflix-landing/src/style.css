@@ -258,10 +258,11 @@ header .logo img{
         padding-right: 10px;
     
     }
-    .banner .play{
+    .play{
+        top: 650px;
         left: 20px;
         font-size: 12px;
-        bottom: 30px;
+        bottom: 40px;
                
     }
     .banner .content .sinopse{
@@ -271,6 +272,9 @@ header .logo img{
     }
     .banner .bg{
         width: 719px;
+    }
+    .banner  .movieTitle{
+        max-width: 150px;
     }
   
    
